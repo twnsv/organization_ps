@@ -30,5 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "pundit", "~> 1.1.0"
   spec.add_dependency 'ransack', "~> 1.8.4"
 
-  spec.add_development_dependency "sqlite3"
+  spec.add_development_dependency "mysql2", "0.5.2"
 end
