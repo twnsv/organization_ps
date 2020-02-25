@@ -17,11 +17,11 @@ module OrganizationPs
     @@user_class.constantize
   end
 
-  require 'organization/factory/nodes'
-  require 'organization/factory/orgs'
-  require 'organization/trunk/growth'
-  require 'organization/finder/orgs'
-  require 'organization/finder/users'
-  require 'organization/finder/authorities'
-  require 'organization/service/org_nodes'
+  require 'organization_ps/factory/nodes'
+  require 'organization_ps/factory/orgs'
+  require 'organization_ps/trunk/growth'
+  require 'organization_ps/finder/orgs'
+  require 'organization_ps/finder/users'
+  require 'organization_ps/finder/authorities'
+  require 'organization_ps/service/org_nodes'
 end
